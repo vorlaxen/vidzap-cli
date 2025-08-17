@@ -1,0 +1,1 @@
+npm run build; if ($?) { npm link; if ($?) { v2 download -n "https://www.youtube.com/watch?v=duQsM0f7R2M" } }
