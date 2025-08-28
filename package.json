@@ -26,7 +26,6 @@
     "fluent-ffmpeg": "^2.1.3",
     "gradient-string": "^3.0.0",
     "inquirer": "^12.9.2",
-    "ora": "^7.1.1",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
