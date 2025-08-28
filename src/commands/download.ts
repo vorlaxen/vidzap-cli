@@ -10,9 +10,7 @@ export const downloadCommand = new Command("download")
   .action(async (args, cmd) => {
     try {
       const { url } = cmd.opts();
-
-      const videoOptions = await fetchVideoMetadata(url);
-
+      
       const info: videoInfo = await fetchVideoMetadata(url);
       const videoFormats: videoFormat[] = ytdl.filterFormats(info.formats, "videoonly");
       const resolutions = getAvailableResolutions(videoFormats);
